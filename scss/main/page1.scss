@@ -1,0 +1,41 @@
+@import './../basic/reset.scss';
+@import './../modules/variable.scss';
+@import './../modules/classes.scss';
+@import './../modules/mixins.scss';
+
+
+
+
+header {
+    background-image: url(./../../pictures/header.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 320px;
+    
+    .container {
+        @extend %container;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    h5 {
+        font-size: $fontsize02;
+        color: $color01;
+        padding: 30px 0 0;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 0 0;
+    }
+    li {
+        margin-right: 15px;
+    }
+    a {
+        font-size: $fontsize01;
+        color: $color01;
+    }
+
+    
+}
