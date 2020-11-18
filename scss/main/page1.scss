@@ -1,8 +1,10 @@
 @import './../basic/reset.scss';
+@import './../basic/font.scss';
 @import './../modules/variable.scss';
 @import './../modules/classes.scss';
 @import './../modules/mixins.scss';
-@import './../basic/font.scss';
+
+
 
 
 .container {
@@ -10,7 +12,7 @@
 }
 
 header {
-    background-image: url(./../../pictures/header.png);
+    background-image: url(../../../Lesson13/pictures/header.png);
     background-size: cover;
     max-width: 100%;
     
