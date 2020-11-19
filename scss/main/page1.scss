@@ -17,7 +17,7 @@ header {
     max-width: 100%;
     
     .navbar {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
     }
     .navbar-first-headline {
@@ -27,7 +27,7 @@ header {
         font-family: 'Poppins-Bold';
     }
     .main-navbar {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
         padding: 32px 0 0;
         font-family: 'Poppins-Semibold';
@@ -57,7 +57,7 @@ header {
         font-family: 'Poppins-ExtraBold';
     }
     .mini-navbar-li {
-       display: flex;
+        @include display(flex);
        justify-content: flex-start;
        margin-top: 14px;
     }
@@ -88,11 +88,11 @@ section {
         font-family: 'Poppins-ExtraBold';
     }
     .section-box-row {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
     }
     .section-box{
-        display: flex;
+        @include display(flex);
         justify-content: flex-start;
         margin-top: 50px;
     }
@@ -136,11 +136,11 @@ section {
         background-color: $color06;
     }
     .booking-section-main {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
     }
     .booking-content {
-        display: flex;
+        @include display(flex);
         flex-direction: column;
         padding: 53px 0;
     }
@@ -167,7 +167,7 @@ section {
         height: 60px;
         background-color: $color03;
         border: none;
-        display: flex;
+        @include display(flex);
         justify-content: center;
         align-items: center;
     }
@@ -187,7 +187,7 @@ section {
 footer {
     background-color: $color02;
     .footer-content {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
     }
     .footer-left-side {
@@ -207,7 +207,7 @@ footer {
         margin: 20px 0;
     }
     .footer-right-side {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
         padding: 83px 0 110px 0;
     }
@@ -229,7 +229,7 @@ footer {
         color: $color03;
     }
     .contact-info-box {
-        display: flex;
+        @include display(flex);
         justify-content: flex-start;
         margin: 0 0 20px;
     }
@@ -240,7 +240,7 @@ footer {
         margin: 0 0 0 17px;
     }
     .footer-bottom {
-        display: flex;
+        @include display(flex);
         justify-content: space-between;
         padding:0 0 40px 0;
     }
